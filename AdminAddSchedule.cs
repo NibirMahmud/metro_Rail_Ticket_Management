@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Metro_Rail_Ticket_Management
 {
-    public partial class Start : Form
+    public partial class AdminAddSchedule : Form
     {
-        public Start()
+        public AdminAddSchedule()
         {
             InitializeComponent();
-        }
-
-        private void loginBtn_Click(object sender, EventArgs e)
-        {
-            /*LogIn login = new LogIn();
-            login.Show();
-            this.Dispose();*/
         }
     }
 }
